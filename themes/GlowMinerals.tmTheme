@@ -1,193 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>author</key>
-    <string>Felix Faber</string>
-    <key>name</key>
-    <string>GlowMinerals</string>
-    <key>settings</key>
-    <array>
-        <dict>
-            <key>name</key>
-            <string>YELLOW</string>
-            <key>scope</key>
-            <string>constant.other.color, constant.numeric.value.css, entity.name.section, entity.other.attribute-name, keyword, markup.heading, punctuation.definition.keyword.css, storage.modifier.nullable, storage.modifier.reference, support.function.section.latex</string>
-            <key>settings</key>
+    <dict>
+        <key>author</key>
+        <string>Felix Faber</string>
+        <key>name</key>
+        <string>GlowMinerals</string>
+        <key>settings</key>
+        <array>
             <dict>
-                <key>foreground</key>
-                <string>#FFC131</string>
+                <key>name</key>
+                <string>YELLOW</string>
+                <key>scope</key>
+                <string>
+                    keyword,
+                    entity.name.function.operator,
+                    markup.heading,
+                    support.type,
+                    support.type.property-name.json,
+                    entity.name,
+                    entity.other
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFC131</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>ORANGE</string>
-            <key>scope</key>
-            <string>constant.numeric, storage.modifier, constant.numeric.suffix.css, keyword.other.unit.css, keyword.control.exception, keyword.control.preamble.latex, keyword.control.include.latex, constant.other.reference.latex, entity.name.label.latex, entity.name.section.latex</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#F27832</string>
+                <key>name</key>
+                <string>ORANGE</string>
+                <key>scope</key>
+                <string>
+                    storage.modifier,
+                    keyword.control
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#F27832</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>RED</string>
-            <key>scope</key>
-            <string>constant, support.constant, keyword.other.important.css, support.constant.property-value.css, keyword.operator.arithmetic.css, keyword.operator.comparison.css, constant.language.doctype, entity.other.namespace-prefix.css, keyword.other.timing.css, keyword.other.shape.css, constant.other.reference.link, entity.name.type.entry-key.bibtex, keyword.operator.matlab, punctuation.definition.star.matlab,support.constant.matlab, variable.language.anonymous.matlab, variable.language.end.matlab, string.unquoted.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#C22748</string>
+                <key>name</key>
+                <string>RED</string>
+                <key>scope</key>
+                <string>
+                    constant,
+                    support.constant,
+                    constant.language.doctype,
+                    constant.other.reference.link,
+                    string.unquoted.matlab
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#C22748</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>PINK</string>
-            <key>scope</key>
-            <string>variable.function, entity.function, support.function</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#E238AC</string>
+                <key>name</key>
+                <string>PINK</string>
+                <key>scope</key>
+                <string>
+                    variable.function, 
+                    entity.function,
+                    entity.name.type,
+                    entity.other.inherited-class,
+                    support.class
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#E238AC</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>PURPLE</string>
-            <key>scope</key>
-            <string>support, support.type.vendor-prefix.css, keyword.analysis.matlab, keyword.mathematics.matlab, support.function.includegraphics.latex, support.function.caption.latex, support.function.url.latex, support.function.reference.latex keyword.other.reference.latex, support.function.footnote.latex, keyword.other.greek.math.tex, support.function.math.tex, support.function.graphics.matlab, support.function.validation.matlab, support.custom.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#B45DE3</string>
+                <key>name</key>
+                <string>PURPLE</string>
+                <key>scope</key>
+                <string>
+                    entity.name.function,
+                    support.function
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#B45DE3</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>DARKBLUE</string>
-            <key>scope</key>
-            <string>entity, support.type.property-name.css, entity.name, entity.other.inherited-class, entity.name.function, support.function.magic.php, support.function.fontsize.latex, support.function.textsc.latex, support.function.textsl.latex, support.function.text.latex, support.function.textit.latex, support.function.texttt.latex, support.function.textbf.latex, support.function.empf.latex, support.function.underline.latex, entity.name.class.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#5F7EFA</string>
+                <key>name</key>
+                <string>DARKBLUE</string>
+                <key>scope</key>
+                <string>
+                    variable.language,
+                    variable.parameter.function.language.special.self
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#5F7EFA</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>LIGHTBLUE</string>
-            <key>scope</key>
-            <string>variable, meta.function-call.identifier.css, support.function.calc.css, support.function.var.css, keyword.declaration.doctype, string.unquoted.key.bibtex, keyword.operator.math.tex, constant.character.parenthesis.tex, constant.character.bracket.tex, markup.underline.link</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#27BBEC</string>
+                <key>name</key>
+                <string>LIGHTBLUE</string>
+                <key>scope</key>
+                <string>
+                    entity.name.variable,
+                    entity.other.attribute-name,
+                    markup.underline.link,
+                    support.type.property-name,
+                    support.variable,
+                    variable.parameter,
+                    variable.other
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#27BBEC</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>TURQUISE</string>
-            <key>scope</key>
-            <string>entity.other.attribute-name.class.css, entity.other.attribute-name.css, keyword.operator.logic.css, keyword.control.directive.css, keyword.other.selector.css, variable.language.wildcard.asterisk.css, variable.other.custom-property.css, storage.type, entity.name.reference.link, meta.link.inline.markdown, keyword.control.matlab, keyword.control.other, keyword.desktop.matlab, storage.type.matlab, keyword.other.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#44BB93</string>
+                <key>name</key>
+                <string>TEAL</string>
+                <key>scope</key>
+                <string>
+                    storage.type,
+                    support.type,
+                    entity.name.reference.link, 
+                    meta.link.inline.markdown, 
+                    keyword.control.matlab, 
+                    keyword.control.other, 
+                    keyword.desktop.matlab,
+                    keyword.other.matlab
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#44BB93</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>DARKGREEN</string>
-            <key>scope</key>
-            <string>string.quoted.double.matlab, string.quoted.double.php, entity.other.pseudo-class.css, punctuation.definition.pseudo-class.css</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#059E14</string>
+                <key>name</key>
+                <string>DARKGREEN</string>
+                <key>scope</key>
+                <string>
+                    string.quoted.double,
+                    entity.other.pseudo-class.css,
+                    punctuation.definition.pseudo-class.css,
+                    entity.name.namespace
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#18A53D</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>LIGHTGREEN</string>
-            <key>scope</key>
-            <string>string, entity.other.animation-name.css, entity.other.page-name.css, string.quoted.single.php, variable.parameter.function.latex, string.quoted.single.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#87AF1F</string>
+                <key>name</key>
+                <string>LIGHTGREEN</string>
+                <key>scope</key>
+                <string>
+                    string
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#87AF1F</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>GREY</string>
-            <key>scope</key>
-            <string>comment, punctuation, keyword.operator.logical.css, punctuation.section.scope.begin.sql, punctuation.section.scope.end.sql, punctuation.separator.matlab, punctuation.definition.group.bracket.begin.latex, punctuation.definition.group.bracket.end.latex, string.other.math.latex punctuation.definition.string.begin.latex, string.other.math.latex punctuation.definition.string.end.latex, punctuation.definition.string.end.php, punctuation.definition.string.begin.php, punctuation.accessor.dot.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#797A7F</string>
+                <key>name</key>
+                <string>GREY</string>
+                <key>scope</key>
+                <string>
+                    comment,
+                    punctuation,
+                    entity.name.section.matlab
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#797A7F</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>LIGHT</string>
-            <key>scope</key>
-            <string>meta.environment.math.inline.dollar.latex, punctuation.definition.comment.triple.matlab, punctuation.definition.comment.double.matlab, entity.name.section.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#c2c9d6</string>
+                <key>name</key>
+                <string>WHITE</string>
+                <key>scope</key>
+                <string>
+                    entity.name.section.matlab
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#D8D6DC</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>INVALID</string>
-            <key>scope</key>
-            <string>invalid</string>
-            <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#F1F1F1</string>
-                <key>background</key>
-                <string>#c3276d</string>
+                <key>name</key>
+                <string>INVALID</string>
+                <key>scope</key>
+                <string>
+                    invalid
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#D8D6DC</string>
+                    <key>background</key>
+                    <string>#C22748</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>italics</string>
-            <key>scope</key>
-            <string>markup.italic, meta.function.footnote.latex</string>
-            <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
+                <key>name</key>
+                <string>ITALIC</string>
+                <key>scope</key>
+                <string>
+                    markup.italic
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>bold</string>
-            <key>scope</key>
-            <string>markup.bold, comment.line.double-percentage.matlab, comment.line.triple-percentage.matlab</string>
-            <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>bold</string>
+                <key>name</key>
+                <string>BOLD</string>
+                <key>scope</key>
+                <string>
+                    markup.bold,
+                    entity.name.section
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>underline</string>
-            <key>scope</key>
-            <string>markup.underline.link</string>
-            <key>settings</key>
             <dict>
-                <key>fontStyle</key>
+                <key>name</key>
                 <string>underline</string>
+                <key>scope</key>
+                <string>
+                    markup.underline
+                </string>
+                <key>settings</key>
+                <dict>
+                    <key>fontStyle</key>
+                    <string>underline</string>
+                </dict>
             </dict>
-        </dict>
-    </array>
-    <key>uuid</key>
-    <string>73dc3564-0a19-4ff6-8732-34b81f900018</string>
-</dict>
+        </array>
+        <key>uuid</key>
+        <string>da86e720-1f80-4c2e-8cff-5bbd61faab75</string>
+    </dict>
 </plist>

@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "title": "example glossary",
+        "num": 120372,
+        "ids": [23, 56, 20, 83, 64, 12]
+    },
+    "entry": {
+        "title": "S",
+        "data": {
+            "subentry": {
+                "ID": 1837523,
+                "abbreviation": "SGML",
+                "term": "Standard Generalized Markup Language",
+                "acronym": "SGML",
+                "description": {
+                    "h1": "Ad ut id pariatur",
+                    "text": "Irure officia aliqua nostrud pariatur. Enim voluptate animso."
+                },
+                "head": "markup"
+            }
+        }
+    }
+}
