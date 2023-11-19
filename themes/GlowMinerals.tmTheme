@@ -9,19 +9,6 @@
     <key>settings</key>
     <array>
         <dict>
-            <key>settings</key>
-            <dict>
-                <!-- <key>background</key>
-                <string>#12181F</string>
-                <key>caret</key>
-                <string>#D8D6DC</string>
-                <key>foreground</key>
-                <string>#D8D6DC</string>
-                <key>invisibles</key>
-                <string>#292a2e</string> -->
-            </dict>
-        </dict>
-        <dict>
             <key>name</key>
             <string>YELLOW</string>
             <key>scope</key>
