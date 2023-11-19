@@ -29,5 +29,9 @@
                 "path": "./themes/glowminerals-color-theme.json"
             }
         ]
-    }
+    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fefafe/glowminerals.git"
+	  }
 }
