@@ -14,7 +14,7 @@
         "color": "#0B0F14",
         "theme": "light"
     },
-	"pricing": "Free",
+    "pricing": "Free",
     "engines": {
         "vscode": "^1.12.0"
     },
@@ -30,8 +30,8 @@
             }
         ]
     },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/fefafe/glowminerals-color-theme.git"
-	  }
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fefafe/glowminerals-color-theme.git"
+    }
 }
