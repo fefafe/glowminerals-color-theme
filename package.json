@@ -1,0 +1,26 @@
+{
+	"name": "glowminerals",
+	"displayName": "GlowMinerals",
+	"description": "A dark color theme with glowing colors.",
+	"version": "0.2.0",
+	"publisher": "fefafe",
+	"author": {
+		"name": "Felix Faber"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GlowMinerals",
+				"uiTheme": "vs-dark",
+				"path": "./themes/glowminerals-color-theme.json"
+			}
+		]
+	}
+}

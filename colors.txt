@@ -1,0 +1,15 @@
+https://coolors.co/12181f-161c24-1e242e-262c38-2d3442-273547-7c7e86-aaaab1-d8d6dc
+
+#12181F primary background color
+#161C24 secondary background color
+#1E242E primary border-color
+#262C38 button color
+#2F3542 button hover color
+
+#D8D6DC primary foreground color
+#A0A0B0 secondary foreground color (A0A0B044)
+68687D
+
+#5999F7 anchors
+
+https://coolors.co/FFC131-F27832-C22748-E238AC-B45DE3-5173FB-27BBEC-44BB93-059E14-87AF1F
