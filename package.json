@@ -12,7 +12,7 @@
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#0B0F14",
-        "theme": "light"
+        "theme": "dark"
     },
     "pricing": "Free",
     "engines": {
