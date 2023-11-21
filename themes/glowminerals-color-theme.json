@@ -5,11 +5,11 @@
     "colors": {
         "focusBorder": "#D8D6DC00",
         "foreground": "#D8D6DC",
-        
         "activityBar.background": "#0B0F14",
         "activityBar.border": "#11171F",
         "activityBar.foreground": "#D8D6DC",
         "activityBar.activeBorder": "#D8D6DC",
+        "activityBar.inactiveForeground": "#68687D",
         "activityBar.activeBackground": "#1C232E",
         "activityBarBadge.background": "#D8D6DC",
         "activityBarBadge.foreground": "#0B0F14",
@@ -53,10 +53,13 @@
         "debugConsole.errorForeground": "#C22748",
         "debugConsole.sourceForeground": "#27BBEC",
         "debugConsoleInputIcon.foreground": "#D8D6DC",
+        
         "debugExceptionWidget.background": "#0B0F14",
         "debugExceptionWidget.border": "#11171F",
+        
         "debugToolBar.background": "#0B0F14",
         "debugToolBar.border": "#11171F",
+        
         "debugIcon.startForeground": "#87AF1F",
         "debugIcon.restartForeground": "#F27832",
         "debugIcon.stopForeground": "#C22748",
@@ -66,12 +69,14 @@
         "debugIcon.stepOutForeground": "#FFC131",
         "debugIcon.stepIntoForeground": "#FFC131",
         "debugIcon.stepBackForeground": "#FFC131",
+        
         "descriptionForeground": "#68687D",
+        
         "diffEditor.insertedTextBackground": "#87AF1F22",
         "diffEditor.insertedLineBackground": "#87AF1F11",
         "diffEditor.removedTextBackground": "#C2274822",
         "diffEditor.removedLineBackground": "#C2274811",
-        "diffEditor.diagonalFill": "#313949",
+        "diffEditor.diagonalFill": "#68687D",
         "diffEditor.border": "#11171F",
         "diffEditorGutter.insertedLineBackground": "#87AF1F11",
         "diffEditorGutter.removedLineBackground": "#C2274811",
@@ -92,7 +97,7 @@
         "editorInlayHint.foreground": "#D8D6DC",
         "editorLineNumber.foreground": "#68687D",
         "editorLineNumber.activeForeground": "#D8D6DC",
-        "editorWhitespace.foreground": "#292a2e",
+        "editorWhitespace.foreground": "#292A2E",
         "editorWidget.background": "#0B0F14",
         "editorWidget.border": "#11171F",
         
@@ -126,6 +131,7 @@
         "editorBracketHighlight.foreground5": "#B45DE388",
         "editorBracketHighlight.foreground6": "#5173FB88",
         "editorBracketHighlight.unexpectedBracket.foreground": "#D8D6DC",
+        
         "editorCodeLens.foreground": "#292A2E",
         "editorGroup.border": "#11171F",
         "editorGroup.dropBackground": "#1F262F99",
@@ -134,7 +140,7 @@
         "editorGroupHeader.tabsBackground": "#0B0F14",
         "editorGroupHeader.tabsBorder": "#11171F",
         "editorGutter.background": "#0B0F14",
-        "editorGutter.modifiedBackground": "#5173FB",
+        "editorGutter.modifiedBackground": "#FFC131",
         "editorGutter.addedBackground": "#87AF1F",
         "editorGutter.deletedBackground": "#C22748",
         
@@ -142,6 +148,7 @@
         "editorHoverWidget.border": "#1C232E",
         "editorHoverWidget.foreground": "#D8D6DC",
         "editorHoverWidget.statusBarBackground": "#11171F",
+        "editorHoverWidget.highlightForeground": "#FFC131",
         
         "editorLink.activeForeground": "#5999F7",
         "editorLightBulb.foreground": "#F27832",
@@ -157,21 +164,24 @@
         "editorOverviewRuler.selectionHighlightForeground": "#BEBEC966",
         "editorOverviewRuler.wordHighlightForeground": "#BEBEC966",
         "editorOverviewRuler.wordHighlightStrongForeground": "#BEBEC966",
-        "editorOverviewRuler.modifiedForeground": "#5173FB",
+        "editorOverviewRuler.modifiedForeground": "#FFC131",
         "editorOverviewRuler.addedForeground": "#87AF1F",
         "editorOverviewRuler.deletedForeground": "#C22748",
         "editorOverviewRuler.errorForeground": "#C22748",
         "editorOverviewRuler.warningForeground": "#F27832",
         "editorOverviewRuler.infoForeground": "#FFC131",
-        "editorRuler.foreground": "#434c5e",
+        
+        "editorRuler.foreground": "#11171F",
         
         "editorSuggestWidget.background": "#11171F",
-        "editorSuggestWidget.border": "#11171F",
+        "editorSuggestWidget.border": "#1C232E",
         "editorSuggestWidget.foreground": "#D8D6DC",
         "editorSuggestWidget.focusHighlightForeground": "#D8D6DC",
         "editorSuggestWidget.highlightForeground": "#BEBEC9",
         "editorSuggestWidget.selectedBackground": "#262C38",
         "editorSuggestWidget.selectedForeground": "#D8D6DC",
+        "editorSuggestWidget.selectedIconForeground": "#D8D6DC",
+        
         "errorForeground": "#C22748",
         
         "gitDecoration.modifiedResourceForeground": "#FFC131",
@@ -230,7 +240,7 @@
         
         "merge.border": "#1F262F00",
         
-        "minimap.background": "#0B0F14",
+        "minimap.background": "#11171F",
         "minimap.findMatchHighlight": "#87AF1F",
         "minimap.selectionHighlight": "#D8D6DC",
         "minimap.selectionOccurrenceHighlight": "#D8D6DC",
@@ -241,7 +251,7 @@
         
         "minimapGutter.addedBackground": "#87AF1F",
         "minimapGutter.deletedBackground": "#C22748",
-        "minimapGutter.modifiedBackground": "#5173FB",
+        "minimapGutter.modifiedBackground": "#FFC131",
         
         "minimapSlider.activeBackground": "#212833CC",
         "minimapSlider.background": "#21283388",
@@ -413,14 +423,14 @@
         "textPreformat.foreground": "#F27832",
         "textSeparator.foreground": "#D8D6DC",
         
-        "toolbar.activeBackground": "#D8D6DC44",
+        "toolbar.activeBackground": "#68687D",
         "toolbar.hoverBackground": "#68687D44",
         
         "titleBar.activeBackground": "#0B0F14",
-        "titleBar.activeForeground": "#D8D6DC",
+        "titleBar.activeForeground": "#68687D",
         "titleBar.border": "#11171F",
         "titleBar.inactiveBackground": "#0B0F14",
-        "titleBar.inactiveForeground": "#D8D6DC66",
+        "titleBar.inactiveForeground": "#68687D",
         
         "tree.indentGuidesStroke": "#11171F",
         "tree.inactiveIndentGuidesStroke": "#11171F",
@@ -428,6 +438,8 @@
         "tree.tableOddRowsBackground": "#11171F",
         
         "walkThrough.embeddedEditorBackground": "#0B0F14",
+        "welcomePage.tileBackground": "#11171F",
+        "welcomePage.tileHoverBackground": "#1C232E",
         
         "widget.border": "#11171F",
         "widget.shadow": "#68687D33"
