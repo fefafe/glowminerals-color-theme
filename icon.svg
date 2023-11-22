@@ -28,7 +28,7 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.3037281"
-     inkscape:cx="203.26324"
+     inkscape:cx="163.37762"
      inkscape:cy="288.40369"
      inkscape:window-width="1920"
      inkscape:window-height="1129"
@@ -42,16 +42,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#0b0f14;fill-opacity:1;stroke:none;stroke-width:10.0006;stroke-linejoin:bevel;stroke-dasharray:20.0013, 20.0013;stroke-dashoffset:20.0013;paint-order:stroke fill markers"
-       id="rect184"
-       width="512"
-       height="512"
-       x="0"
-       y="0"
-       ry="0"
-       inkscape:transform-center-y="156.47435"
-       inkscape:transform-center-x="-137.29857" />
+    <circle
+       style="fill:#0b0f14;stroke-width:11.4258;stroke-linejoin:bevel;stroke-dasharray:22.8517, 22.8517;stroke-dashoffset:22.8517;paint-order:stroke fill markers;fill-opacity:1"
+       id="path296"
+       cx="256"
+       cy="256"
+       r="256" />
     <circle
        style="fill:#c22748;fill-opacity:1;stroke:none;stroke-width:10.0006;stroke-linejoin:bevel;stroke-dasharray:20.0013, 20.0013;stroke-dashoffset:20.0013;paint-order:stroke fill markers"
        id="path4119-8-6-4"
