@@ -1,13 +1,2 @@
-v0.2.0: https://coolors.co/12181f-161c24-1e242e-262c38-2d3442-273547-7c7e86-aaaab1-d8d6dc
-v0.3.0: https://coolors.co/0B0F14-11171F-1C232E-252F3D-262C38-2F3542-5999F7-68687D-BEBAC4-D8D6DC
-
-#0b0f14 primary background color
-#1c232e secondary background color
-#11171f primary border-color
-
-#D8D6DC primary foreground color
-#68687D secondary foreground color
-
-#5999F7 anchors
-
-syntax highlighting: https://coolors.co/FFC131-F27832-C22748-E238AC-B45DE3-5173FB-27BBEC-44BB93-18A53D-87AF1F
+https://coolors.co/0B0F14-11171F-1C232E-252F3D-5999F7-68687D-8C8B9C-D8D6DC
+https://coolors.co/FFC131-F27832-C22748-E238AC-B45DE3-5173FB-27BBEC-44BB93-18A53D-87AF1F
