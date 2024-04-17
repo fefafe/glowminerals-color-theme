@@ -9,6 +9,23 @@
         <key>settings</key>
         <array>
             <dict>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#0B0F14</string>
+                    <key>caret</key>
+                    <string>#D8D6DC</string>
+                    <key>foreground</key>
+                    <string>#D8D6DC</string>
+                    <key>invisibles</key>
+                    <string>#292A2E</string>
+                    <key>lineHighlight</key>
+                    <string>#11171F</string>
+                    <key>selection</key>
+                    <string>#68687D40</string>
+                </dict>
+            </dict>
+            <dict>
                 <key>name</key>
                 <string>YELLOW</string>
                 <key>scope</key>
